@@ -1,0 +1,17 @@
+.profile {
+    margin: 10% 10%;
+}
+
+.profile2 {
+    display: flex;
+    text-align: center;
+}
+
+.teste {
+    background-color: blanchedalmond;
+}
+
+p {
+    font-size: large;
+    font-weight: bold;
+}

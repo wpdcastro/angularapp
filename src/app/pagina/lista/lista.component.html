@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="form-group">
+        <label>Digita sua bebida favorita: </label>
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" [(ngModel)]="nome_bebida"/>
+            </div>
+            <div class="col">
+            <button class="btn btn-primary" (click)="add()">+ ADD</button>
+            </div>
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Ação</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let drink of bebidas15; index as i;">
+            <th  scope="row">{{i}}</th>
+            <td>{{drink}}</td>
+            <td scope="col"><button class="btn btn-warning" (click)="remove(i)">Remover</button></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
