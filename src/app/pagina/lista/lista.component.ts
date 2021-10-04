@@ -5,10 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './lista.component.html',
   styleUrls: ['./lista.component.css']
 })
+
 export class ListaComponent implements OnInit {
   
   nome_bebida = "";
-  bebidas15 = ["cachaça", "conhaque"];
+  bebidas15 = ["Incêndio região sul", "Incêndio região sul"];
 
   add() { 
     let n = this.nome_bebida;

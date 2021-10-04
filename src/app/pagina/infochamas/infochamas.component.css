@@ -1,0 +1,78 @@
+.inputs {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    margin: 2% 5% 5% 5%;
+    max-width: 30%;
+}
+
+.logo {
+    width: 60%;
+    margin: 0% 10%;
+}
+
+.logo-phrase {
+    color: #FF6B00;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: -2%;
+}
+
+.note-p {
+    margin: 5% 20% 0% 20%;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.arrow {
+    min-height: 0;
+    min-width: 0;
+    margin: -15% 0% -9% -6%;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-right: 23px solid #fff3cd;
+}
+
+.cards {
+    background-color: #FBFBFB;
+    position: relative;
+    height: 100vh;
+}
+
+.phone_area {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.delete-p {
+    margin-top: 2%;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.btn-info-primary {
+    background-color: #FF6B00 !important;
+    color: white;
+    border-color: transparent;
+    width: 50%;
+    margin: 0% 2% 0% 2%;
+}
+
+.btn-info-primary-outlined {
+    background-color: transparent;
+    color: #FF6B00;
+    width: 50%;
+    border-color: #FF6B00;
+    margin: 0% 2% 0% 2%;
+}
+
+
+.notifications {
+    width: 70%;
+    margin: 5% 10%;
+}

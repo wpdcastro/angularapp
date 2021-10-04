@@ -9,8 +9,10 @@ import { ContatoComponent } from './pagina/contato/contato.component';
 import { NavbarComponent } from './pagina/navbar/navbar.component';
 import { ListaComponent } from './pagina/lista/lista.component';
 import { HomeComponent } from './pagina/home/home.component';
+import { InfochamasComponent } from './pagina/infochamas/infochamas.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ContatoComponent,
     NavbarComponent,
     ListaComponent,
-    HomeComponent
+    HomeComponent,
+    InfochamasComponent
   ],
   imports: [
     BrowserModule,
